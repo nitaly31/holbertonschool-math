@@ -20,13 +20,13 @@ void display_complex_number(complex c)
 		else
 		{
 			if (c.im < 0)
-				printf("%.0f - %.0fi \n", c.re, -c.im);
+				printf("%.0f - %.0fi\n", c.re, -c.im);
 			else
 				printf("%.0f + %.0fi\n", c.re, c.im);
 		}
 	}
 	else if (c.im == 0 && c.re != 0)
-		printf("%.0f \n", c.re);
+		printf("%.0f\n", c.re);
 
 	else if (c.im != 0 && c.re == 0)
 	{
